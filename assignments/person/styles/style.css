@@ -34,6 +34,7 @@ nav a:hover {
   border: 2px solid rgba(0, 0, 0, 0.692);
   padding: 15px;
   margin: 20px;
+  grid-row: 1/1;
 }
 #box2 {
   width: 1350px;
@@ -47,6 +48,16 @@ nav a:hover {
   border: 2px solid rgba(0, 0, 0, 0.692);
   padding: 15px;
   margin: 20px;
+}
+#box4 {
+  align-items: center;
+  width: 50px;
+  height: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.692);
+  padding: 15px;
+  margin: 20px;
+  grid-row: 1/2;
+  grid-column: 2/2;
 }
 .card-img {
   width: 30%;
@@ -84,4 +95,24 @@ nav a:hover {
   grid-column: 8/10;
   grid-row: 3/3;
   margin: 200px 0;
+}
+.page2 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+.picture1 {
+  grid-row: 6/7;
+  grid-column: 1/2;
+  width: 700px;
+  height: 400px;
+}
+.wold1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  width: 700px;
+}
+.wold2 {
+  grid-column: 2/3;
+  grid-row: 6/7;
+  width: 300px;
 }
